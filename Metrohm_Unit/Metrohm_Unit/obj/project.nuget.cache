@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "dgSpecHash": "x6rp2CbEaZOZLrb99TGe7V6FzLywY2ooxQ9wJQgpe1ljeHdzqSb7DILh71Vokgge2SsA6lJV5v/b54QdeqwJ2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\niloofar\\source\\repos\\Metrohm_Unit\\Metrohm_Unit\\Metrohm_Unit.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\niloofar\\.nuget\\packages\\blend.interactivity.wpf\\1.0.1340\\blend.interactivity.wpf.1.0.1340.nupkg.sha512",
+    "C:\\Users\\niloofar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\niloofar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\niloofar\\.nuget\\packages\\system.windows.interactivity.wpf\\2.0.20525\\system.windows.interactivity.wpf.2.0.20525.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Blend.Interactivity.Wpf 1.0.1340' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Blend.Interactivity.Wpf",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Windows.Interactivity.WPF 2.0.20525' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Windows.Interactivity.WPF",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

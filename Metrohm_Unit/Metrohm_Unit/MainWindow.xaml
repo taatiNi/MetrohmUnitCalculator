@@ -1,0 +1,26 @@
+﻿<Window x:Class="Metrohm_Unit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Metrohm_Unit"
+        mc:Ignorable="d"
+       xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:vm="clr-namespace:Metrohm_Unit.ViewModel"
+        xmlns:uc="clr-namespace:Metrohm_Unit.UserControls"
+        Title="MainWindow" Height="400" Width="300">
+    <Window.Resources>
+        <vm:MainViewModel x:Key="VM"/>
+    </Window.Resources>
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding Source={StaticResource VM},Path=WindowLoadedCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid>
+        <uc:UnitUc DoubleValue="{Binding Mode=OneWay, Source={StaticResource VM},Path=DoubleValue}"
+                   Units="{Binding Source={StaticResource VM},Path=Units,Mode=OneWay}"
+                   />
+
+    </Grid>
+</Window>
